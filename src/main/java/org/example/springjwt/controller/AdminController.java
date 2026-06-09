@@ -10,7 +10,7 @@ public class AdminController {
 
     @GetMapping("/admin")
     public String adminP() {
-        return "Admin Controller";
+        return "Admin Controller : admin권한 접속 성공";
     }
 
 }
