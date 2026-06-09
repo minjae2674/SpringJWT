@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @ResponseBody
-public class MainController {
+public class AdminController {
 
-    @GetMapping("/")
-    public String mainP() {
-
-        return "Main Controller";
+    @GetMapping("/admin")
+    public String adminP() {
+        return "Admin Controller";
     }
+
 }
